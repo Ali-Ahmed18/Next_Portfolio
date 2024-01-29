@@ -126,7 +126,7 @@ const About = () => {
             exit="hidden"
             className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0"
           >
-            10 years ago, I begin freelancing as a developer. Since then, I've
+            10 years ago, I begin freelancing as a developer. Since then, I&apos;ve
             done work from agencies, counsulted for startups, and colloborated
             on digital product for business and consumer use.
           </motion.p>
@@ -208,8 +208,8 @@ const About = () => {
                   <div className="hidden md:flex">-</div>
                   <div>{item.stage}</div>
                   <div className="flex gap-x-4">
-                    {item.icons?.map((icon, itemindex) => {
-                      return <div key={itemindex} className="text-2xl text-white">{icon}</div>;
+                    {item.icons?.map((icon, iconindex) => {
+                      return <div key={iconindex} className="text-2xl text-white">{icon}</div>;
                     })}
                   </div>
                 </div>
