@@ -32,12 +32,12 @@ const workSlides = {
           path: "/work7.png",
         },
         {
-          link: "https://ali-ahmed18.github.io/Morning-star/",
-          path: "/thumb2.jpg",
+          link: "https://react-weather-app-tau-bay.vercel.app/",
+          path: "/weatherapp.png",
         },
         {
-          link: "https://ali-ahmed18.github.io/Morning-star/",
-          path: "/thumb3.jpg",
+          link: "https://ali-ahmed18.github.io/Tic-Tac-Toe/",
+          path: "/tictak.png",
         },
       ],
     },
