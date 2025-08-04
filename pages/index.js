@@ -30,9 +30,7 @@ const Home = () => {
             exit="hidden"
             className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16"
           >
-            lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry&apos;s standard dummy text
-            ever since the 1500s,
+            I design and develop fast, functional, and scalable digital solutions that match your vision — whether it's a custom web app or a WordPress-powered site
           </motion.p>
           <div className="flex justify-center xl:hidden relative">
             <ProjectsBtn />
