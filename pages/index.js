@@ -27,9 +27,9 @@ const Home = () => {
             exit="hidden"
             className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16"
           >
-            I design and develop fast, functional, and scalable digital solutions
-            that match your vision — whether it's a custom web app or a
-            WordPress-powered site.
+             I design and develop fast, functional, and scalable digital solutions
+  that match your vision — whether it&#39;s a custom web app or a
+  WordPress-powered site.
           </motion.p>
           <div className="flex justify-center xl:hidden relative">
             <ProjectsBtn />
