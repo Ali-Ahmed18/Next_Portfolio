@@ -38,10 +38,7 @@ const aboutData = [
           <SiFirebase key="firebase" />
         ],
       },
-      {
-        title: "Graphic Design",
-        icons: [<SiAdobelightroom key="lightroom" />, <SiAdobephotoshop key="photoshop" />],
-      },
+      
     ],
   },
   {
@@ -51,10 +48,7 @@ const aboutData = [
         title: "Mern Stack Developer Certificate",
         stage: "2023",
       },
-      {
-        title: "Adobe Design Certificate ",
-        stage: "2019",
-      },
+      
     ],
   },
   {
@@ -62,11 +56,11 @@ const aboutData = [
     info: [
       {
         title: "Web Developer - Freelancing",
-        stage: "6 Month",
+        stage: "2023 - present",
       },
       {
-        title: "Data Entry - Digi Skill",
-        stage: "2018 - 2019",
+        title: "Canvas Designing",
+        stage: "2020 - 2022",
       },
     ],
   },
@@ -75,11 +69,11 @@ const aboutData = [
     info: [
       {
         title: "Web Development - Saylani Mass IT Training, Karachi",
-        stage: "2022",
+        stage: "2022 - 2023",
       },
       {
-        title: "Computer Science Diploma - S.M Collegiate",
-        stage: "2020",
+        title: "Intermediate - Siraj - ud - Daulah",
+        stage: "2024",
       },
       {
         title: "Graphic designing - Arena Karachi, Pakistan",
@@ -98,7 +92,7 @@ const About = () => {
   return (
     <div className="h-full bg-primary/30 py-32 text-center xl:text-left">
       <Cirles />
-      <motion.div
+    {/* <motion.div
         variants={fadeIn("right", 0.2)}
         initial="hidden"
         animate="show"
@@ -106,7 +100,7 @@ const About = () => {
         className="hidden xl:flex absolute bottom-0 -left-[370px]"
       >
         <Avatar />
-      </motion.div>
+      </motion.div> */}
       <div className="container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-6">
         <div className="flex-1 flex flex-col justify-center">
           <motion.h2
@@ -116,8 +110,9 @@ const About = () => {
             exit="hidden"
             className="h2"
           >
-            Captivating <span className="text-accent">stories</span> birth
-            magnificent designs.
+            Design meets code — <span className="text-accent">storytelling </span>
+            through web development.
+              
           </motion.h2>
           <motion.p
             variants={fadeIn("right", 0.4)}
@@ -126,9 +121,7 @@ const About = () => {
             exit="hidden"
             className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0"
           >
-            10 years ago, I begin freelancing as a developer. Since then, I&apos;ve
-            done work from agencies, counseled for startups, and collaborated
-            on digital products for business and consumer use.
+            I started freelancing in 2023 after mastering the MERN stack and WordPress. Since then, I’ve built 15+ projects, collaborated with teams in hackathons, and delivered custom web solutions for diverse needs.
           </motion.p>
           <motion.div
             variants={fadeIn("right", 0.6)}
