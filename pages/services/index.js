@@ -28,8 +28,7 @@ const Services = () => {
               exit="hidden"
               className="mb-4 max-w-[400px] mx-auto lg:mx-0"
             >
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry&apos;s standard dummy
+              I offer a range of web development services designed to bring your digital vision to life — whether you are a startup, business owner, or agency.
             </motion.p>
           </div>
           <motion.div
