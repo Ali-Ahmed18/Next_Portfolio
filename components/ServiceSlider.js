@@ -5,30 +5,30 @@ import "swiper/css/bundle";
 
 const serviceData = [
   {
-    icon: <RxCrop />,
-    title: "Full-Stack Web Development",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-  },
-  {
-    icon: <RxPencil2 />,
-    title: "Custom API Development",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-  },
-  {
-    icon: <RxDesktop />,
-    title: "Real-Time Application",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-  },
-  {
-    icon: <RxReader />,
-    title: "E-commerce Solutions",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-  },
-  {
-    icon: <RxRocket />,
-    title: "Scalable and Secure Database Design",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-  },
+  icon: <RxCrop />,
+  title: "Full-Stack Web Development",
+  description: "I build modern web apps using MERN stack tools.",
+},
+{
+  icon: <RxPencil2 />,
+  title: "Custom API Development",
+  description: "Clean, scalable APIs tailored to your project needs.",
+},
+{
+  icon: <RxDesktop />,
+  title: "Real-Time Application",
+  description: "Create fast, interactive apps with real-time features.",
+},
+{
+  icon: <RxReader />,
+  title: "E-commerce Solutions",
+  description: "Sell online with secure and responsive web stores.",
+},
+{
+  icon: <RxRocket />,
+  title: "Scalable and Secure Database Design",
+  description: "Reliable databases built for performance and growth.",
+}
 ];
 
 import {
