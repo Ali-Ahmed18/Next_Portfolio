@@ -4,16 +4,16 @@ const workSlides = {
     {
       images: [
         {
-          link: "https://ali-ahmed18.github.io/Morning-star/",
-          path: "/work2.png",
+          link: "https://olx-clone-react-iota.vercel.app/",
+          path: "/olx.png",
+        },
+        {
+          link: "https://www.smartvinreport.com/",
+          path: "/smart.png",
         },
         {
           link: "https://ali-ahmed18.github.io/Mini-Hackathon/",
           path: "/work6.png",
-        },
-        {
-          link: "https://ali-ahmed18.github.io/blocktopia-website/",
-          path: "/work3.png",
         },
         {
           link: "https://ali-ahmed18.github.io/SocialMedia-App-Firebase/",
